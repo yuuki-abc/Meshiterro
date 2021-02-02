@@ -10,11 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_02_01_165016) do
+ActiveRecord::Schema.define(version: 2021_02_01_183159) do
 
   create_table "post_images", force: :cascade do |t|
     t.text "shop_name"
-    t.string "iamge_id"
+    t.string "image_id"
     t.text "caption"
     t.integer "user_id"
     t.datetime "created_at", null: false
